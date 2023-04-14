@@ -1,0 +1,137 @@
+/* Please rename the css file if anything does not change in the webpage after editing the file. 
+Also, do not forget to change location of the css file in the php/html file */
+
+header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+nav {
+  background-color: rgb(238, 170, 85);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.navbar-left {
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 25px;
+  color: darkred; 
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: 900; 
+}
+
+.navbar-right-side {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 42px;
+  font-size: 22px;
+}
+
+.navbar-left-side {
+  position:relative; 
+}
+
+.navbar-left-side:hover {
+  cursor: pointer;
+}
+
+.navbar-logo {
+  width: 55px;
+}
+
+.navbar-right:link,
+.navbar-right:visited {
+  color: black;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.navbar-right:hover,
+.navvar-right:active {
+  color: red;
+}
+
+.history-section {
+  height: 100vh;
+  padding: 30px 50px;
+  margin-bottom: 60px;
+  overflow: auto;
+}
+
+.table-info {
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 170px;
+  padding-bottom: 45px;
+  font-size: 40px;
+}
+
+.table {
+  width: 80%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.columns {
+  background-color: lightgrey;
+  width: 80%;
+}
+
+.table-headings {
+  border: 1px solid black;
+  width: 16%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.table-headings h5 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0px;
+  padding: 0px 10px;
+}
+
+.table-data {
+  border: 1px solid black;
+  width: 16%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.table-data h5 {
+  margin: 10px 0px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+footer{
+  background-color: rgb(94, 87, 87);
+  color: white;
+  font-size: 18px;
+  width: 100%;
+  height: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,228 @@
+/* Please rename the css file if anything does not change in the webpage after editing the file. 
+Also, do not forget to change location of the css file in the php/html file */
+
+/* body {
+  height: 100vh;
+} */
+
+header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+nav {
+  background-color: rgb(238, 170, 85);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  padding: 18px 18px;;
+}
+
+.navbar-left {
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  font-size: 25px;
+  color: darkred; 
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: 900; 
+}
+
+.navbar-right-side {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 40px;
+  font-size: 22px;
+  padding-top: 25px;
+}
+
+/* newpart */
+/* .navbar-right {
+  background-color: rgb(238, 170, 85);
+  max-width: 175px;
+  padding: 10px;
+  border-radius: 5px;
+} */
+
+.navbar-left-side {
+  position:relative; 
+}
+
+.navbar-left-side:hover {
+  cursor: pointer;
+}
+
+.navbar-logo {
+  width: 55px;
+}
+
+.navbar-right:link,
+.navbar-right:visited {
+  color: black;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.navbar-right:hover,
+.navvar-right:active {
+  color: red;
+}
+
+.receipt-info {
+  background-image: linear-gradient(
+    to left,
+    rgb(228, 228, 228),
+    rgb(228, 228, 228)
+  );
+  height: calc(100vh - 75px);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.receipt-section {
+  background-image: linear-gradient(
+    to left,
+    rgb(228, 228, 228),
+    rgb(228, 228, 228)
+  );
+  /* padding-top: 150px; */
+  padding-top: 18px;
+  height: 100vh;
+}
+
+.receipt-border {
+  width: 70%;
+  margin: auto;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  border: 1.5px solid black;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.receipt-top {
+  background-color: rgb(78, 154, 129);
+  text-align: center;
+  padding: 25px 0;
+  font-size: 25px;
+}
+
+.receipt-bottom {
+  background-color: lightcyan;
+  border-top: 1px solid black;
+  height: 70%;
+  display: flex;
+}
+
+.receipt-mid {
+  background-color: lightcyan;
+  border-top: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.receipt-mid h5 {
+  font-size: 18px;
+  text-align: center;
+  padding: 15px;
+}
+
+.receipt-bottom h5 {
+  font-size: 18px;
+}
+
+.receipt-left {
+  width: 50%;
+  text-align: left;
+  border-right: 1px solid black;
+}
+
+.receipt-right {
+  width: 50%;
+  text-align: left;
+}
+
+.receipt-left h5 {
+  padding: 15px 0px 15px 40px;
+  margin: 0;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.receipt-right h5 {
+  padding: 15px 0px 15px 40px;
+  margin: 0;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.receipt-both {
+  font-weight: bold;
+  gap: 7px;
+  align-items: center;
+  display: flex;
+  justify-content: left;
+}
+
+.receipt-both span {
+  color: black;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+input[type="submit"] {
+  background-color: rgba(58, 172, 16, 0.932);
+  font-weight: bold;
+  color: white;
+  width: 80px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.print-button:hover {
+  color: black;
+  cursor: pointer;
+}
+
+footer{
+  background-color: rgb(94, 87, 87);
+  color: white;
+  font-size: 18px;
+  width: 100%;
+  height: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media print {
+  @page {
+    size: auto;
+    margin: 0;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  /* nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    page-break-inside: avoid;
+  } */
+}
